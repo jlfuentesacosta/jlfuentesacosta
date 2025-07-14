@@ -1,6 +1,6 @@
 +++
 date = '2025-07-13T23:41:08-05:00'
-draft = true
+draft = false
 title = 'Job Market Paper'
 +++
 
