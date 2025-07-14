@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>welcome on Juan L. Fuentes-Acosta</title>
-    <link>http://localhost:1313/</link>
+    <link>https://jlfuentesacosta.github.io/jlfuentesacosta/</link>
     <description>Recent content in welcome on Juan L. Fuentes-Acosta</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 13 Jul 2025 23:41:08 -0500</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://jlfuentesacosta.github.io/jlfuentesacosta/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Job Market Paper</title>
-      <link>http://localhost:1313/jmp/</link>
+      <link>https://jlfuentesacosta.github.io/jlfuentesacosta/jmp/</link>
       <pubDate>Sun, 13 Jul 2025 23:41:08 -0500</pubDate>
-      <guid>http://localhost:1313/jmp/</guid>
+      <guid>https://jlfuentesacosta.github.io/jlfuentesacosta/jmp/</guid>
       <description>&lt;h3 id=&#34;title-group-neutral-college-access-and-student-welfare-evidence-from-chile&#34;&gt;Title: Group-Neutral College Access and Student Welfare: Evidence from Chile&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;Abstract:&lt;/strong&gt; Group-neutral admission policies aim to promote equity without the political costs of affirmative action, yet their success depends on how disadvantaged students respond to them. I study the welfare effects of Chile’s Relative Ranking (RR) rule, which raises college admission scores for the top students at every high school. Using administrative data on the universe of applicants, I estimate a structural model of college choice where the policy alters students’ beliefs about admission, thereby changing the set of schools they consider. I find the policy increased average student welfare by 1.5%, concentrating gains among students from public and voucher schools while reducing welfare for students from private schools. Accounting for students’ behavioral response is important, as it amplifies the policy’s effect by a factor of five relative to the mechanical effect alone. Counterfactuals show that expanding the policy further enhances equity with only a minimal trade-off in the average test scores of admitted students.&lt;/p&gt;</description>
     </item>
   </channel>
