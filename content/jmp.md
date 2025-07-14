@@ -10,4 +10,4 @@ title = 'Job Market Paper'
 
 [Download PDF](/files/jmp-juan-fuentes.pdf)
 
-Last updated: [Date]++
+Last updated: [Date]
