@@ -1,0 +1,30 @@
+baseURL = "https://jlfuentesacosta.github.io/jlfuentesacosta/"  # Update with your GitHub details
+languageCode = "en-us"
+title = "Juan L. Fuentes-Acosta"
+theme = "hello-friend-ng"
+
+# Minimal params for the theme
+[params]
+  dateform = "Jan 2, 2006"  # Simple date format
+  dateformShort = "Jan 2"
+  description = "Academic Website"
+  keywords = "research, economics, jmp"  # Optional
+  defaultTheme = "dark"  # Or "dark" if you prefer
+  disableReadOtherPosts = true  # Keeps it minimal, no post suggestions
+  enableSharingButtons = false  # No social buttons
+  enableGlobalLanguageMenu = false  # No language switcher
+
+# Simple menu
+[[menu.main]]
+  identifier = "home"
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  identifier = "jmp"
+  name = "JMP"
+  url = "/jmp/"
+  weight = 2
+
+# Add more menu items later if needed, e.g., [[menu.main]] for "CV"
