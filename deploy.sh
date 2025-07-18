@@ -5,6 +5,9 @@
 # Change Directory 
 cd "/Users/juanluisfuentesacosta/Dropbox/projects/personal_website/jlfuentesacosta"
 
+# Run the update of my JMP
+~/scripts/update-jmp/update_paper.sh web grubb
+
 # Ensure we're on main branch
 git checkout main
 
