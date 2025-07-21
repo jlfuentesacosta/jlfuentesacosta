@@ -1,0 +1,11 @@
+{{ define "main" }}
+<div class="about-layout">  <!-- Flexbox wrapper -->
+    <div class="bio">       <!-- Left: Bio content -->
+        <h2>CV Me</h2>  <!-- Matches screenshot -->
+        {{ .Content }}     <!-- Your Markdown from content/about/_index.md -->
+    </div>
+    {{ if .Site.Params.photo }}
+    <img src="{{ .Site.Params.photo | relURL }}" alt="Your Photo" class="profile-photo">
+    {{ end }}
+</div>
+{{ end }}

@@ -1,6 +1,10 @@
-<header>
-    <h1>{{ .Site.Title }}</h1>
-    {{ if .Site.Params.photo }}
-    <img src="{{ .Site.Params.photo | relURL }}" alt="Your Photo" class="profile-photo">
+<header class="site-header">
+  <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
+
+  <nav class="site-nav">
+    {{ $n := sub (len site.Menus.main) 1 }}
+    {{ range $i, $e := site.Menus.main }}
+      <a href="{{ $e.URL }}">{{ $e.Name }}</a>{{ if lt $i $n }}<span class="sep"> / </span>{{ end }}
     {{ end }}
+  </nav>
 </header>

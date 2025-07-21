@@ -1,4 +1,12 @@
 {{ define "main" }}
-{{ .Content }}  <!-- Homepage Markdown -->
-<p>Quick links: <a href="/research/">Research</a> | <a href="/cv/">CV</a></p>
+<section class="hero">
+  <div class="hero-text">
+    {{ .Content }}          <!-- markdown from content/_index.md -->
+  </div>
+
+  <img src="{{ .Site.Params.photo | relURL }}"
+       alt="Head-shot"
+       class="hero-photo"
+       loading="lazy">
+</section>
 {{ end }}

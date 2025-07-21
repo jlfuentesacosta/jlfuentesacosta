@@ -1,11 +1,14 @@
 +++
-date = '2025-07-13T23:39:41-05:00'
-draft = false
-title = 'welcome'
+title = "Welcome"
+description = "Juan Fuentes – PhD candidate in Economics at Boston College, specializing in Empirical IO and Economics of Education."
 +++
 
-Hello, I'm Juan, a PhD candidate in Economics at Boston College.
+## About me
 
-My research interests include Empirical Industrial Organization and Economics of Education.
+I am **Juan Fuentes**, a PhD candidate in Economics at [Boston College](https://www.bc.edu/bc-web/schools/morrissey/departments/economics.html).  
+My research lies at the intersection of **Empirical Industrial Organization** and the **Economics of Education**.
 
-For my Job Market Paper, see the [JMP page](/jmp/).
+In my [Job Market Paper](/research/jmp/) I quantify the welfare impact of class-rank admissions policies in higher education.
+
+I will be on the **2025 – 26 job market**.  
+[Download my CV](/cv/) | [Email me](mailto:fuentejc@bc.edu)
