@@ -2,18 +2,21 @@
 baseURL = "https://jlfuentesacosta.github.io/jlfuentesacosta/"  # Update with your GitHub details
 languageCode = "en-us"
 title = "Juan L. Fuentes-Acosta"
-theme = "hello-friend-ng"
+theme = "my-theme"  # Points to our custom theme
 
 # Minimal params for the theme
 [params]
+  author = "Juan L. Fuentes-Acosta"
   dateform = "Jan 2, 2006"  # Simple date format
   dateformShort = "Jan 2"
-  description = "Academic Website"
-  keywords = "research, economics, jmp"  # Optional
+  description = "Econ PhD Candidate on the Job Market"
+  keywords = "economics, phd, jmp, job market, research"
   defaultTheme = "dark"  # Or "dark" if you prefer
   disableReadOtherPosts = true  # Keeps it minimal, no post suggestions
   enableSharingButtons = false  # No social buttons
   enableGlobalLanguageMenu = false  # No language switcher
+  email = "fuentejc@bc.edu"
+  photo = "/images/your-photo.jpg"  # Upload a photo to static/images/ later
 
 # Simple menu
 [[menu.main]]
@@ -21,11 +24,32 @@ theme = "hello-friend-ng"
   name = "Home"
   url = "/"
   weight = 1
-
 [[menu.main]]
   identifier = "jmp"
   name = "JMP"
   url = "/jmp/"
   weight = 2
-
-# Add more menu items later if needed, e.g., [[menu.main]] for "CV"
+[[menu.main]]
+  name = "About"
+  url = "/about/"
+  weight = 3
+[[menu.main]]
+  name = "Research"
+  url = "/research/"
+  weight = 4
+[[menu.main]]
+  name = "Publications"
+  url = "/publications/"
+  weight = 5
+[[menu.main]]
+  name = "Teaching"
+  url = "/teaching/"
+  weight = 6
+[[menu.main]]
+  name = "CV"
+  url = "/cv/"
+  weight = 7
+[[menu.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 8

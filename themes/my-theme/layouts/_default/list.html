@@ -1,0 +1,12 @@
+{{ define "main" }}
+<h2>{{ .Title }}</h2>
+{{ .Content }}  <!-- Section intro -->
+<ul>
+    {{ range .Pages }}  <!-- Loop over sub-pages -->
+    <li>
+        <a href="{{ .RelPermalink }}">{{ .Title }}</a>
+        {{ if .Params.abstract }} - {{ .Params.abstract | truncate 100 }}{{ end }}
+    </li>
+    {{ end }}
+</ul>
+{{ end }}

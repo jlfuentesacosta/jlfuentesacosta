@@ -1,0 +1,9 @@
+{{ define "main" }}
+<article>
+    <h2>{{ .Title }}</h2>
+    {{ if .Params.date }}<p>{{ .Date.Format "January 2, 2006" }}</p>{{ end }}
+    {{ if .Params.abstract }}<p><strong>Abstract:</strong> {{ .Params.abstract }}</p>{{ end }}
+    {{ .Content }}
+    {{ if .Params.pdf }}<a href="{{ .Params.pdf | relURL }}">Download PDF</a>{{ end }}
+</article>
+{{ end }}

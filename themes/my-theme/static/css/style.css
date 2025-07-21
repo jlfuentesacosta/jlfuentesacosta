@@ -1,0 +1,65 @@
+/* Reset and basics */
+body {
+  font-family: 'Helvetica', sans-serif;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  background: #fff;
+}
+
+.container {
+  max-width: 800px;  /* Keeps it narrow and readable */
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+header {
+  text-align: center;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1rem;
+}
+
+.profile-photo {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;  /* Circular photo */
+  margin: 1rem 0;
+}
+
+nav {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+nav a {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: #007bff;  /* Blue accent */
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin: 2rem 0;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid #eee;
+  padding-top: 1rem;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+/* Responsive for mobile */
+@media (max-width: 600px) {
+  .container { padding: 1rem; }
+  nav a { display: block; margin: 0.5rem 0; }
+}
+
+/* Lists (e.g., research) */
+ul { list-style: none; padding: 0; }
+ul li { margin: 1rem 0; }

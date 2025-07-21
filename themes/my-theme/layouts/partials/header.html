@@ -1,0 +1,6 @@
+<header>
+    <h1>{{ .Site.Title }}</h1>
+    {{ if .Site.Params.photo }}
+    <img src="{{ .Site.Params.photo | relURL }}" alt="Your Photo" class="profile-photo">
+    {{ end }}
+</header>
