@@ -2,57 +2,20 @@
 <h2>{{ .Title }}</h2>
 {{ .Content }}
 
-<div class="papers-list">
-    {{ range .Pages }}
-    <div class="paper-item">
-        <div class="paper-header">
-            <h3 class="paper-title">
-                <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-            </h3>
-            <div class="paper-actions">
-                {{ if .Params.pdf }}
-                <a href="{{ .Params.pdf }}" class="pdf-link" target="_blank">PDF</a>
-                {{ end }}
-                {{ if .Params.abstract }}
-                <button class="abstract-btn" onclick="toggleAbstract('{{ .File.BaseFileName }}')">
-                    Abstract
-                </button>
-                {{ end }}
-            </div>
-        </div>
-        
-        <div class="paper-meta">
-            {{ if .Params.authors }}
-            <span class="authors">{{ delimit .Params.authors ", " }}</span>
-            {{ end }}
-            {{ if .Params.version }}
-            <span class="version">{{ .Params.version }}</span>
-            {{ end }}
-        </div>
-        
-        {{ if .Params.abstract }}
-        <div id="abstract-{{ .File.BaseFileName }}" class="abstract" style="display: none;">
-            {{ .Params.abstract }}
-        </div>
-        {{ end }}
-    </div>
-    {{ end }}
-</div>
+<ul class="papers-list">
+  {{ range .Pages.ByTitle }}
+    <li>
+      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
+      <small>
+        {{ delimit .Params.authors ", " }}
+        {{ with .Params.version }} • {{ . }}{{ end }}
+        {{ if .Params.pdf }} • <a href="{{ .Params.pdf }}">PDF</a>{{ end }}
+      </small>
 
-<script>
-function toggleAbstract(paperId) {
-    const abstract = document.getElementById('abstract-' + paperId);
-    const button = event.target;
-    
-    if (abstract.style.display === 'none') {
-        abstract.style.display = 'block';
-        button.textContent = 'Hide';
-        button.classList.add('active');
-    } else {
-        abstract.style.display = 'none';
-        button.textContent = 'Abstract';
-        button.classList.remove('active');
-    }
-}
-</script>
+      {{ with .Params.abstract }}
+        <details><summary>Abstract</summary><p>{{ . }}</p></details>
+      {{ end }}
+    </li>
+  {{ end }}
+</ul>
 {{ end }}
