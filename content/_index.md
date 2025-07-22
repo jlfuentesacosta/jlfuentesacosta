@@ -12,3 +12,14 @@ In my [Job Market Paper](/research/jmp/) I quantify the welfare impact of class-
 
 I will be on the **2025 – 26 job market**.  
 [Download my CV](/cv/) | [Email me](mailto:fuentejc@bc.edu)
+
+## Recent Research
+
+**Job Market Paper**  
+[Group-Neutral College Access and Student Welfare: Evidence from Chile](/research/jmp/)
+
+**Working Papers**  
+[When Competition and Labor Market Policy Collide: The Case of the Minimum Wage](/research/min-wage-beer/)
+*with Rodrigo González Valdenegro*
+
+[View all research →](/research/)
