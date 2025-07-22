@@ -22,4 +22,4 @@ Group-neutral admission policies aim to promote equity without the political cos
 </details>
 
 
-[**View all research →**](/research/)
+[**View all research →**](research/)
