@@ -4,18 +4,24 @@
 
 <ul class="papers-list">
   {{ range .Pages.ByTitle }}
-    <li>
-      <h3><a href="{{ .RelPermalink }}">{{ .Title }}</a></h3>
-      <small>
-        {{ delimit .Params.authors ", " }}
-        {{ with .Params.version }} • {{ . }}{{ end }}
-        {{ if .Params.pdf }} • <a href="{{ .Params.pdf }}">PDF</a>{{ end }}
-      </small>
-
-      {{ with .Params.abstract }}
-        <details><summary>Abstract</summary><p>{{ . }}</p></details>
+  <li>
+    <h3>
+      {{ if .Params.pdf }}
+      <a href="{{ .Params.pdf }}">{{ .Title }}</a>
+      {{ else }}
+      <a href="{{ .RelPermalink }}">{{ .Title }}</a>
       {{ end }}
-    </li>
+    </h3>
+    <small>
+      {{ with .Params.authors }}{{ delimit . ", " }}{{ end }}
+      {{ with .Params.version }} • {{ . }}{{ end }}
+      {{ with .Params.pdf }} • <a href="{{ . }}">PDF</a>{{ end }}
+    </small>
+
+    {{ with .Params.abstract }}
+    <details><summary>Abstract</summary><p>{{ . }}</p></details>
+    {{ end }}
+  </li>
   {{ end }}
 </ul>
 {{ end }}
