@@ -11,5 +11,3 @@ abstract: >
 
 **Download:** [PDF]({{< param "pdf" >}})
 
-**Status:** Working Paper
-**Last Updated:** {{< param "version" >}}

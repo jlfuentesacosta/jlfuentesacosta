@@ -6,11 +6,7 @@
   {{ range .Pages.ByTitle }}
   <li>
     <h3>
-      {{ if .Params.pdf }}
-      <a href="{{ .Params.pdf }}">{{ .Title }}</a>
-      {{ else }}
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
-      {{ end }}
     </h3>
     <small>
       {{ with .Params.authors }}{{ delimit . ", " }}{{ end }}
