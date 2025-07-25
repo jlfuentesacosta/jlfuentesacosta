@@ -12,7 +12,7 @@ In my [Job Market Paper](files/jmp-juan-fuentes.pdf) I quantify the welfare impa
 
 I will be on the **2025 – 26 job market**.
 
-[Download my CV](/files/cv-juan-fuentes.pdf) | [Email me](mailto:fuentejc@bc.edu)
+[Download my CV](files/cv-juan-fuentes.pdf) | [Email me](mailto:fuentejc@bc.edu)
 
 ## Job Market Paper
 [Group-Neutral College Access and Student Welfare: Evidence from Chile](files/jmp-juan-fuentes.pdf)

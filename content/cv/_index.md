@@ -9,5 +9,5 @@ photo: "images/headshot-jmsite.png"
 - MA in Economics, [University of Chile](https://econ.uchile.cl/), 2019
 - BA in Economics, [University of Chile](https://econ.uchile.cl/), 2016
 
-[Full CV here.](/files/cv-juan-fuentes.pdf)
+[Full CV here.](files/cv-juan-fuentes.pdf)
 
