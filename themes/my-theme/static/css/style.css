@@ -64,8 +64,8 @@ body {
 }
 
 .hero-photo {
-  width: 200px;
-  height: 220px;
+  width: 250px;
+  height: 270px;
   object-fit: cover;
   border-radius: 8px;  /* Rectangular with rounded corners */
   flex-shrink: 0;
