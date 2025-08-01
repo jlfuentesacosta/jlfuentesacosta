@@ -1,5 +1,5 @@
 <header class="site-header">
-  <h1><a href="{{ "/" | relURL }}">{{ .Site.Title }}</a></h1>
+  <h1><a href="{{ .Site.BaseURL }}">{{ .Site.Title }}</a></h1>
 
   <nav class="site-nav">
     {{ $n := sub (len site.Menus.main) 1 }}
