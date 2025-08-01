@@ -1,5 +1,5 @@
 # baseURL = "http://localhost:1313/"  # Temporarily set this for local testing (change back to your live URL later)
-baseURL = "https://jlfuentesacosta.github.io/jlfuentesacosta/"  # Update with your GitHub details
+baseURL = "https://jlfuentesacosta.github.io/"  # Update with your GitHub details
 languageCode = "en-us"
 title = "Juan L. Fuentes-Acosta"
 theme = "my-theme"  # Points to our custom theme
