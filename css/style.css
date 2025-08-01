@@ -1,0 +1,221 @@
+/* Reset and basics */
+body {
+  font-family: 'JetBrains Mono', 'Fira Code', 'SF Mono', Monaco, 'Cascadia Code', 'Roboto Mono', Consolas, 'Courier New', monospace;
+  line-height: 1.6;
+  margin: 0;
+  padding: 0;
+  color: #2d3748;  /* Slightly softer black */
+  background: #fafafa;  /* Very light gray background */
+  font-size: 14px;  /* Smaller base font for that terminal feel */
+}
+
+.container {
+  max-width: 900px;  /* Slightly wider for better readability with mono font */
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+/* ---------- Header ---------- */
+.site-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  padding: 1rem 0;
+  border-bottom: 2px solid #e2e8f0;  /* Clean separator */
+  margin-bottom: 2rem;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 1.5rem;
+  font-weight: 600;
+  color: #1a202c;
+}
+
+.site-header h1 a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.site-nav a {
+  color: #4a5568;
+  text-decoration: none;
+  font-size: 0.9rem;
+  font-weight: 500;
+  transition: color 0.2s ease;
+}
+
+.site-nav a:hover {
+  color: #2b6cb0;  /* Blue accent on hover */
+}
+
+.site-nav .sep {
+  color: #a0aec0;
+  margin: 0 0.5rem;
+}
+
+/* ---------- Home hero ---------- */
+.hero {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  margin: 2rem 0 1rem;
+  padding: 2rem;
+}
+
+.hero-photo {
+  width: 250px;
+  height: 270px;
+  object-fit: cover;
+  border-radius: 8px;  /* Rectangular with rounded corners */
+  flex-shrink: 0;
+  border: 2px solid #e2e8f0;
+}
+
+.hero-text {
+  flex: 1;
+}
+
+.hero-text h3 {
+  margin-top: 0;
+  color: #2d3748;
+  font-size: 1.2rem;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+
+.jmp-preview-separate {
+  margin: 1rem 2rem 2rem 2rem; /* Match the hero padding */
+  padding-top: 1rem;
+  border-top: 1px solid #e2e8f0;
+}
+
+/* Ensure it aligns properly on mobile */
+@media (max-width: 700px) {
+  .jmp-preview-separate {
+    margin: 1rem 0;
+  }
+}
+/* ---------- Links and buttons ---------- */
+a {
+  color: #2b6cb0;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* ---------- Code-like sections ---------- */
+.research-item {
+  background: #f7fafc;
+  border-left: 4px solid #4299e1;
+  padding: 1rem;
+  margin: 1rem 0;
+  font-family: inherit;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  text-align: center;
+  border-top: 1px solid #e2e8f0;
+  padding-top: 1.5rem;
+  margin-top: 3rem;
+  font-size: 0.5rem;
+  color: #718096;
+}
+
+/* ---------- Responsive ---------- */
+@media (max-width: 700px) {
+  .hero {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+  .hero-photo {
+    width: 150px;
+    height: 150px;
+  }
+  .site-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .container { 
+    padding: 1rem; 
+  }
+  body {
+    font-size: 13px;
+  }
+}
+
+/* Lists (e.g., research) */
+ul { 
+  list-style: none; 
+  padding: 0; 
+}
+
+ul li { 
+  margin: 1rem 0;
+  padding: 0.5rem;
+  background: #f7fafc;
+  border-radius: 4px;
+}
+
+/* ---------- CV Layout ---------- */
+.cv-section {
+  margin: 2rem 0;
+}
+
+.cv-section h3 {
+  color: #2d3748;
+  border-bottom: 1px solid #e2e8f0;
+  padding-bottom: 0.5rem;
+}
+.cv-layout {
+  display: flex;
+  gap: 3rem;
+  align-items: flex-start;
+  margin: 2rem 0;
+}
+
+.cv-content {
+  flex: 1;
+}
+
+.cv-photo {
+  width: 200px;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 8px;
+  flex-shrink: 0;
+  border: 2px solid #e2e8f0;
+}
+
+/* Responsive CV layout */
+@media (max-width: 700px) {
+  .cv-layout {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    gap: 1.5rem;
+  }
+  .cv-photo {
+    width: 150px;
+    height: 150px;
+  }
+}
+
+/* ---------- Papers List Styling ---------- */
+/* minimalist research list */
+.papers-list { list-style:none; padding:0; margin:2rem 0; }
+.papers-list li { margin:1.25rem 0; }
+.papers-list h3 { margin:0; font-size:1rem; font-weight:600; }
+.papers-list small { color:#6b7280; }
+details { margin-top:.5rem; }
+details summary { cursor:pointer; font-size:.85rem; color:#2563eb; }
+details summary::-webkit-details-marker { display:none; }
