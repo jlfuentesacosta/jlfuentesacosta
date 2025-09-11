@@ -11,3 +11,6 @@ abstract: >
 
 **Download:** [PDF]({{< param "pdf" >}})
 
+### Abstract:
+{{< param "abstract" >}}
+
