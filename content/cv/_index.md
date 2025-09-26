@@ -10,4 +10,6 @@ photo: "images/headshot-jmsite.png"
 - BA in Economics, [University of Chile](https://econ.uchile.cl/), 2016
 
 [Full CV here.](https://jlfuentesacosta.github.io/files/cv-juan-fuentes.pdf)
+[Find my research statement here.](https://jlfuentesacosta.github.io/files/rs-juan-fuentes.pdf)
+
 
