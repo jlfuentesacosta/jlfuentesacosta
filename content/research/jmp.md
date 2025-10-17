@@ -1,13 +1,14 @@
 ---
-title: "Group-Neutral College Access and Student Welfare: Evidence from Chile"
+title: "Who Wins with Class-Rank College Admissions?"
 authors: ["Juan L. Fuentes-Acosta"]
-version: "July 2025"
+version: "October 2025"
 pdf: "https://jlfuentesacosta.github.io/files/jmp-juan-fuentes.pdf"
 draft: false
 abstract: >
-    Group-neutral admission policies aim to promote equity without the political costs of affirmative action, yet their success depends on how disadvantaged students respond to them. I study the welfare effects of Chile’s Relative Ranking (RR) rule, which raises college admission scores for the top students at every high school. Using administrative data on the universe of applicants, I estimate a structural model of college choice where the policy alters students’ beliefs about admission, thereby changing the set of schools they consider. I find the policy increased average student welfare by 1.5%, concentrating gains among students from public and voucher schools while reducing welfare for students from private schools. Accounting for students’ behavioral response is important, as it amplifies the policy’s effect by a factor of five relative to the mechanical effect alone. Counterfactuals show that expanding the policy further enhances equity with only a minimal trade-off in the average test scores of admitted students.
+    Class-rank policies increase college admission chances for students who perform better than their peers within their high school. These policies aim to promote equity while avoiding the legal and political challenges of affirmative action. I study the effects of Chile’s Relative Ranking rule, introduced in 2013, which boosted admission scores for top students in each high school. I use administrative data on the universe of applicants from 2012 to 2014, leverage variation pre- and post-policy, and estimate a structural model of college choice with endogenous consideration sets and graduation outcomes. This framework allows me to capture how the policy changed admission scores and reshaped student application choices. On average, student welfare rose by 0.05 km measured as willingness to travel. This effect hides important heterogeneity. I find that the rule shifted 13% of applicants into more-preferred programs. Of these students, 90% were from public and voucher schools and 60% were women. Private school students and men were displaced to less preferred alternatives and showed lower graduation rates. Counterfactuals show that, compared to affirmative action, the class-rank rule delivers higher welfare for public school students and smaller
+reductions in graduation rates.
 ---
-# Group-Neutral College Access and Student Welfare: Evidence from Chile
+# Who Wins with Class-Rank College Admissions?
 
 **Download:** [PDF]({{< param "pdf" >}})
 
