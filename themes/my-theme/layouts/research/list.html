@@ -3,7 +3,7 @@
 {{ .Content }}
 
 <ul class="papers-list">
-  {{ range .Pages.ByTitle }}
+  {{ range .Pages.ByWeight }}
   <li>
     <h3>
       <a href="{{ .RelPermalink }}">{{ .Title }}</a>
