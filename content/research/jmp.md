@@ -1,5 +1,5 @@
 ---
-title: "Who Wins with Class-Rank College Admissions?"
+title: "Who Wins with Class-Rank College Admissions? (JMP)"
 authors: ["Juan L. Fuentes-Acosta"]
 version: "October 2025"
 pdf: "https://jlfuentesacosta.github.io/files/jmp-juan-fuentes.pdf"
